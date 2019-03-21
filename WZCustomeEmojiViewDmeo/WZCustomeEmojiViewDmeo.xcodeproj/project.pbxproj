@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F245B0E22431C1400FEE05C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F245B0D22431C1400FEE05C /* AppDelegate.m */; };
+		2F245B1422431C1400FEE05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F245B1222431C1400FEE05C /* Main.storyboard */; };
+		2F245B1622431C1500FEE05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F245B1522431C1500FEE05C /* Assets.xcassets */; };
+		2F245B1922431C1500FEE05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F245B1722431C1500FEE05C /* LaunchScreen.storyboard */; };
+		2F245B1C22431C1500FEE05C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F245B1B22431C1500FEE05C /* main.m */; };
+		2F245B2622431C1500FEE05C /* WZCustomeEmojiViewDmeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F245B2522431C1500FEE05C /* WZCustomeEmojiViewDmeoTests.m */; };
+		2F245B3122431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F245B3022431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests.m */; };
+		2F245B4022431C2500FEE05C /* WZCustomEmojiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F245B3F22431C2500FEE05C /* WZCustomEmojiView.m */; };
+		2F245B4322431C3700FEE05C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F245B4222431C3600FEE05C /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F245B2222431C1500FEE05C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F245B0122431C1400FEE05C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F245B0822431C1400FEE05C;
+			remoteInfo = WZCustomeEmojiViewDmeo;
+		};
+		2F245B2D22431C1500FEE05C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F245B0122431C1400FEE05C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F245B0822431C1400FEE05C;
+			remoteInfo = WZCustomeEmojiViewDmeo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F245B0922431C1400FEE05C /* WZCustomeEmojiViewDmeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZCustomeEmojiViewDmeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F245B0C22431C1400FEE05C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F245B0D22431C1400FEE05C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F245B1322431C1400FEE05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F245B1522431C1500FEE05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F245B1822431C1500FEE05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F245B1A22431C1500FEE05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F245B1B22431C1500FEE05C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F245B2122431C1500FEE05C /* WZCustomeEmojiViewDmeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZCustomeEmojiViewDmeoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F245B2522431C1500FEE05C /* WZCustomeEmojiViewDmeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCustomeEmojiViewDmeoTests.m; sourceTree = "<group>"; };
+		2F245B2722431C1500FEE05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F245B2C22431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZCustomeEmojiViewDmeoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F245B3022431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZCustomeEmojiViewDmeoUITests.m; sourceTree = "<group>"; };
+		2F245B3222431C1500FEE05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F245B3E22431C2500FEE05C /* WZCustomEmojiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZCustomEmojiView.h; sourceTree = "<group>"; };
+		2F245B3F22431C2500FEE05C /* WZCustomEmojiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZCustomEmojiView.m; sourceTree = "<group>"; };
+		2F245B4122431C3600FEE05C /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F245B4222431C3600FEE05C /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F245B0622431C1400FEE05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F245B1E22431C1500FEE05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F245B2922431C1500FEE05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F245B0022431C1400FEE05C = {
+			isa = PBXGroup;
+			children = (
+				2F245B0B22431C1400FEE05C /* WZCustomeEmojiViewDmeo */,
+				2F245B2422431C1500FEE05C /* WZCustomeEmojiViewDmeoTests */,
+				2F245B2F22431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests */,
+				2F245B0A22431C1400FEE05C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F245B0A22431C1400FEE05C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F245B0922431C1400FEE05C /* WZCustomeEmojiViewDmeo.app */,
+				2F245B2122431C1500FEE05C /* WZCustomeEmojiViewDmeoTests.xctest */,
+				2F245B2C22431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F245B0B22431C1400FEE05C /* WZCustomeEmojiViewDmeo */ = {
+			isa = PBXGroup;
+			children = (
+				2F245B0C22431C1400FEE05C /* AppDelegate.h */,
+				2F245B0D22431C1400FEE05C /* AppDelegate.m */,
+				2F245B4122431C3600FEE05C /* ViewController.h */,
+				2F245B4222431C3600FEE05C /* ViewController.m */,
+				2F245B3E22431C2500FEE05C /* WZCustomEmojiView.h */,
+				2F245B3F22431C2500FEE05C /* WZCustomEmojiView.m */,
+				2F245B1222431C1400FEE05C /* Main.storyboard */,
+				2F245B1522431C1500FEE05C /* Assets.xcassets */,
+				2F245B1722431C1500FEE05C /* LaunchScreen.storyboard */,
+				2F245B1A22431C1500FEE05C /* Info.plist */,
+				2F245B1B22431C1500FEE05C /* main.m */,
+			);
+			path = WZCustomeEmojiViewDmeo;
+			sourceTree = "<group>";
+		};
+		2F245B2422431C1500FEE05C /* WZCustomeEmojiViewDmeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F245B2522431C1500FEE05C /* WZCustomeEmojiViewDmeoTests.m */,
+				2F245B2722431C1500FEE05C /* Info.plist */,
+			);
+			path = WZCustomeEmojiViewDmeoTests;
+			sourceTree = "<group>";
+		};
+		2F245B2F22431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F245B3022431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests.m */,
+				2F245B3222431C1500FEE05C /* Info.plist */,
+			);
+			path = WZCustomeEmojiViewDmeoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F245B0822431C1400FEE05C /* WZCustomeEmojiViewDmeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F245B3522431C1500FEE05C /* Build configuration list for PBXNativeTarget "WZCustomeEmojiViewDmeo" */;
+			buildPhases = (
+				2F245B0522431C1400FEE05C /* Sources */,
+				2F245B0622431C1400FEE05C /* Frameworks */,
+				2F245B0722431C1400FEE05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZCustomeEmojiViewDmeo;
+			productName = WZCustomeEmojiViewDmeo;
+			productReference = 2F245B0922431C1400FEE05C /* WZCustomeEmojiViewDmeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F245B2022431C1500FEE05C /* WZCustomeEmojiViewDmeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F245B3822431C1500FEE05C /* Build configuration list for PBXNativeTarget "WZCustomeEmojiViewDmeoTests" */;
+			buildPhases = (
+				2F245B1D22431C1500FEE05C /* Sources */,
+				2F245B1E22431C1500FEE05C /* Frameworks */,
+				2F245B1F22431C1500FEE05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F245B2322431C1500FEE05C /* PBXTargetDependency */,
+			);
+			name = WZCustomeEmojiViewDmeoTests;
+			productName = WZCustomeEmojiViewDmeoTests;
+			productReference = 2F245B2122431C1500FEE05C /* WZCustomeEmojiViewDmeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F245B2B22431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F245B3B22431C1500FEE05C /* Build configuration list for PBXNativeTarget "WZCustomeEmojiViewDmeoUITests" */;
+			buildPhases = (
+				2F245B2822431C1500FEE05C /* Sources */,
+				2F245B2922431C1500FEE05C /* Frameworks */,
+				2F245B2A22431C1500FEE05C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F245B2E22431C1500FEE05C /* PBXTargetDependency */,
+			);
+			name = WZCustomeEmojiViewDmeoUITests;
+			productName = WZCustomeEmojiViewDmeoUITests;
+			productReference = 2F245B2C22431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F245B0122431C1400FEE05C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = flagadmin;
+				TargetAttributes = {
+					2F245B0822431C1400FEE05C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2F245B2022431C1500FEE05C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2F245B0822431C1400FEE05C;
+					};
+					2F245B2B22431C1500FEE05C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2F245B0822431C1400FEE05C;
+					};
+				};
+			};
+			buildConfigurationList = 2F245B0422431C1400FEE05C /* Build configuration list for PBXProject "WZCustomeEmojiViewDmeo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F245B0022431C1400FEE05C;
+			productRefGroup = 2F245B0A22431C1400FEE05C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F245B0822431C1400FEE05C /* WZCustomeEmojiViewDmeo */,
+				2F245B2022431C1500FEE05C /* WZCustomeEmojiViewDmeoTests */,
+				2F245B2B22431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F245B0722431C1400FEE05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F245B1922431C1500FEE05C /* LaunchScreen.storyboard in Resources */,
+				2F245B1622431C1500FEE05C /* Assets.xcassets in Resources */,
+				2F245B1422431C1400FEE05C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F245B1F22431C1500FEE05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F245B2A22431C1500FEE05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F245B0522431C1400FEE05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F245B4022431C2500FEE05C /* WZCustomEmojiView.m in Sources */,
+				2F245B1C22431C1500FEE05C /* main.m in Sources */,
+				2F245B4322431C3700FEE05C /* ViewController.m in Sources */,
+				2F245B0E22431C1400FEE05C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F245B1D22431C1500FEE05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F245B2622431C1500FEE05C /* WZCustomeEmojiViewDmeoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F245B2822431C1500FEE05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F245B3122431C1500FEE05C /* WZCustomeEmojiViewDmeoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F245B2322431C1500FEE05C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F245B0822431C1400FEE05C /* WZCustomeEmojiViewDmeo */;
+			targetProxy = 2F245B2222431C1500FEE05C /* PBXContainerItemProxy */;
+		};
+		2F245B2E22431C1500FEE05C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F245B0822431C1400FEE05C /* WZCustomeEmojiViewDmeo */;
+			targetProxy = 2F245B2D22431C1500FEE05C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F245B1222431C1400FEE05C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F245B1322431C1400FEE05C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F245B1722431C1500FEE05C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F245B1822431C1500FEE05C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F245B3322431C1500FEE05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2F245B3422431C1500FEE05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F245B3622431C1500FEE05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZCustomeEmojiViewDmeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang.com.WZCustomeEmojiViewDmeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F245B3722431C1500FEE05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZCustomeEmojiViewDmeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang.com.WZCustomeEmojiViewDmeo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F245B3922431C1500FEE05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZCustomeEmojiViewDmeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang.com.WZCustomeEmojiViewDmeoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZCustomeEmojiViewDmeo.app/WZCustomeEmojiViewDmeo";
+			};
+			name = Debug;
+		};
+		2F245B3A22431C1500FEE05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZCustomeEmojiViewDmeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang.com.WZCustomeEmojiViewDmeoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZCustomeEmojiViewDmeo.app/WZCustomeEmojiViewDmeo";
+			};
+			name = Release;
+		};
+		2F245B3C22431C1500FEE05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZCustomeEmojiViewDmeoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang.com.WZCustomeEmojiViewDmeoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZCustomeEmojiViewDmeo;
+			};
+			name = Debug;
+		};
+		2F245B3D22431C1500FEE05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WZCustomeEmojiViewDmeoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wang.com.WZCustomeEmojiViewDmeoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WZCustomeEmojiViewDmeo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F245B0422431C1400FEE05C /* Build configuration list for PBXProject "WZCustomeEmojiViewDmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F245B3322431C1500FEE05C /* Debug */,
+				2F245B3422431C1500FEE05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F245B3522431C1500FEE05C /* Build configuration list for PBXNativeTarget "WZCustomeEmojiViewDmeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F245B3622431C1500FEE05C /* Debug */,
+				2F245B3722431C1500FEE05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F245B3822431C1500FEE05C /* Build configuration list for PBXNativeTarget "WZCustomeEmojiViewDmeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F245B3922431C1500FEE05C /* Debug */,
+				2F245B3A22431C1500FEE05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F245B3B22431C1500FEE05C /* Build configuration list for PBXNativeTarget "WZCustomeEmojiViewDmeoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F245B3C22431C1500FEE05C /* Debug */,
+				2F245B3D22431C1500FEE05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F245B0122431C1400FEE05C /* Project object */;
+}
